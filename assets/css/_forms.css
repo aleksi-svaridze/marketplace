@@ -17,14 +17,55 @@
    
 }
 .account-form--input {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2B2B2B;
     width: 330px;
     height: 46px;
     background: #FFFFFF;
     border: 1px solid #858584;
     border-radius: 20px;
-    padding: 16px 20px;
-    margin-bottom: 30px;
+    padding: 16px 20px 16px 52px;
 }
-.account-form--input:not(:last-of-type) {
+.account-form--input::placeholder {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #2B2B2B;
+}
+.input-wrapper {
+    margin-bottom: 30px;
+    position: relative;
+}
+.input-wrapper:not(:last-of-type) {
     margin-bottom: 12px;
+}
+.input-username::before {
+    content: url(../images/input-user-icon.svg);
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+.input-address::before {
+    content: url(../images/input-envelope-icon.svg);
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+}
+.input-password::before {
+    content: url(../images/input-lock-icon.svg);
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
 }
