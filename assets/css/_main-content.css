@@ -1,0 +1,20 @@
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 60px;
+}
+.col {
+    width: 50%;
+    min-height: 690px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bg-image {
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
