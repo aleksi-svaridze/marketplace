@@ -3,8 +3,8 @@
     font-size: 16px;
     line-height: 140%;
 
-    color: white;
-    background: #A259FF;
+    color: var(--color-white);
+    background: var(--color-purple);
     border-radius: 20px;
 
     display: flex;

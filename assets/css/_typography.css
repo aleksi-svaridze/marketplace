@@ -1,7 +1,7 @@
 body {
     font-family: Work;
-    background: white;
-    color: white;
+    background-color: var(--color-black);
+    color: var(--color-white);
 }
 .heading-primary {
 
@@ -11,7 +11,7 @@ body {
     font-weight: 700;
     font-size: 22px;
     line-height: 160%;
-    color: #FFFFFF;
+    color: var(--color-white);
 }
 .header-nav--link {
     font-weight: 600;
@@ -23,5 +23,5 @@ body {
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
-    color: #CCCCCC;
+    color: var(--color-light-gray);
 }

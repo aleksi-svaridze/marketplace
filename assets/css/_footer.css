@@ -1,9 +1,10 @@
 .footer {
-    padding: 40px 115px;
-    background-color: #3B3B3B;
+    background-color: var(--color-dark-gray);
 }
-
 .footer-container {
+    padding: 40px 115px;
+}
+.footer-grid {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -17,7 +18,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 110%;
-    color: #CCCCCC;
+    color: var(--color-light-gray);
 }
 .footer-column{
     
