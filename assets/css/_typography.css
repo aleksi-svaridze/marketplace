@@ -1,6 +1,6 @@
 body {
     font-family: Work;
-    background: #2B2B2B;
+    background: white;
     color: white;
 }
 .heading-primary {
@@ -17,4 +17,11 @@ body {
     font-weight: 600;
     font-size: 16px;
     line-height: 140%;
+}
+.footer-link {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #CCCCCC;
 }

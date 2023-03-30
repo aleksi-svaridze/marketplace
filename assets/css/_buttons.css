@@ -21,3 +21,12 @@
     width: 330px;
     height: 46px;
 }
+.btn-subscribe {
+    text-transform: capitalize;
+    position: absolute;
+    width: 179px;
+    height: 60px;
+    right: -1px;
+    top: 0;
+    bottom: 0;
+}

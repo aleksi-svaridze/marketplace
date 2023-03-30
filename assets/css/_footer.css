@@ -1,0 +1,53 @@
+.footer {
+    padding: 40px 115px;
+    background-color: #3B3B3B;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footer-divider {
+    height: 0px;
+    border: 1px solid #858584;
+    margin: 30px auto 20px;
+}
+.footer-copyright {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+    color: #CCCCCC;
+}
+.footer-column{
+    
+}
+.footer-heading {
+    margin-bottom: 30px;
+}
+.footer-row-gap {
+    margin-bottom: 20px;
+}
+.footer-icon--wrapper {
+    display: inline-flex;
+    align-items: center;
+}
+.social-icons {
+    width: 32px;
+    height: 32px;
+}
+.social-icons:not(:last-child) {
+    margin-right: 10px;
+}
+.discord {
+    background-image: url(../images/discord-icon.svg);
+}
+.youtube {
+    background-image: url(../images/youtube-icon.svg);
+}
+.twitter {
+    background-image: url(../images/twitter-icon.svg);
+}
+.instagram {
+    background-image: url(../images/instagram-icon.svg);
+}
