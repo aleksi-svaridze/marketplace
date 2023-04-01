@@ -1,11 +1,11 @@
 .main-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     column-gap: 60px;
 }
 .col {
-    width: 50%;
+    width: 610px;
     min-height: 690px;
 
     display: flex;
